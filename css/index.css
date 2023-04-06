@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+html, body{
+    padding: 0 10px;
+    scroll-behavior: smooth;
+}
+
+
+.tittle{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.subtittle{
+    margin: 10px 0px;
+    text-align: center;
+   
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    width: 100%;
+}
+.segitiga{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding:10px 0px ;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card{
+    border: 1px blue solid;
+    padding : 0px;
+    margin-top: 20px;
+    box-shadow:0px 7px 6px 0px rgba(0,0,0,0.75);
+    font-size: 20px
+   
+}
+.button1 {
+    background-color:blue;
+    border-color:blue;
+    color:white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:5px 5px ;
+    display: flex;
+    margin: auto;
+}
+
+.button2{
+    background-color:yellow;
+    border-color:yellow;
+    color:white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:5px 5px;
+    margin: auto;
+    display:inline;
+   
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding : 10px 20px 15px 50px;
+}

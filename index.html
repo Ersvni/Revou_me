@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body>
+    <script src="/js/index.js"></script>
+    
+    <h1 class="tittle">Welcome To Katik</h1>
+    <p class="subtittle"> Hai Sobat, Selamat Datang di Katik :)<br> apps sederhana yang berfungsi untuk menghitung nilai luas dari keliling bangun datar
+    
+        <header>
+            <nav>
+                <div class="menu">
+                    <a href="#index" class="segitiga">Segitiga</a>
+                    <a href="#jajargenjang">Jajargenjang</a>
+                <div>
+            </nav>
+        </header>
+
+        <!--Main-->
+        <main>
+            <!--Section Luas Segitiga-->
+            <section class="card" id="#index">
+                <h2>Luas Segitiga</h2>
+               <br>
+                <img class="image"src="/assets/img1.png" alt="">
+                <div>
+                    <h5>Rumus Luas Segitiga Yaitu :</h5>
+                    <p><center> L = 1/2 x a x t</center></p>
+                </div><br>
+                <div>
+                    <p>Dimana :</p>
+                    <p>L = Luas</p>
+                    <p>a = Panjang Alas</p>
+                    <p>t = Tinggi</p>
+                </div><br>
+
+                <div>
+                    <h1>Hitung Luas Segitiga</h1>
+                    <form >
+                        <input class="menu" type="number"  id="alas" required>
+                        <input class="menu" type="number" id="tinggi" required>
+                        <button class="button1" type="submit"  onclick="return segitiga()">Hitung</button>
+                        <div id="output"></div>
+                        <button class="button2" type="reset" onclick="reset()">Reset</button>
+                    </form>
+                    
+                </div>
+            </section><br>
+
+            <!--Section Keliling Segitiga-->
+            <section class="card">
+                <h2>Keliling Segitiga</h2>
+                <br>
+                <img class="image"src="/assets/img1.png" alt="">
+                    <div>
+                        <h5>Rumus Keliling Segitiga Yaitu :</h5>
+                        <p><center> K = S1 + S2 + S3</center></p>
+                    </div><br>
+                 
+                    <div>
+                        <p>Dimana :</p>
+                        <p>K = Keliling</p>
+                        <p>S1 = Sisi A</p>
+                        <p>S2 = Sisi B</p>
+                        <p>S3 = Sisi C</p>
+                     </div><br>
+ 
+                 <div>
+                     <h1>Hitung Keliling Segitiga</h1>
+                     <form >
+                         <input class="menu" type="number" name="input" id="sisiA" required>
+                         <input class="menu" type="number" name="input" id="sisiB" required>
+                         <input class="menu" type="number" name="input" id="sisiC" required>
+                         <button class="button1" type="submit" value="hitung" onclick="return kelilingsegitiga()">Hitung</button>
+                         <div id="hasil"></div>
+                         <button class="button2" type="reset">Reset</button>
+                     </form>
+                     
+                 </div>
+             </section><br>
+
+             <!--Section Luas Jajargenjang-->
+             <section class="card" id="#jajargenjang">
+                    <h2 id="jajargenjang">Luas Jajargenjang</h2>
+                    <br>
+                        <img class="image2" src="/assets/image2.jpg" alt="">
+                        <div>
+                            <h5>Rumus Luas Jajargenjang Yaitu :</h5>
+                            <p><center> L =  a x t</center></p>
+                        </div><br>
+
+                        <div>
+                            <p>Dimana :</p>
+                            <p>L = Luas</p>
+                            <p>a = Panjang Alas</p>
+                            <p>t = Tinggi</p>
+                        <div><br>
+
+                        <div>
+                            <h1>Hitung Luas Jajargenjang</h1>
+                            <form >
+                                <input class="menu" type="number" name="input" id="alas" required>
+                                <input class="menu" type="number" name="input" id="tinggi" required>
+                                <button class="button1" type="submit" value="hitung" onclick="return jajargenjang()">Hitung</button>
+                                <div id="hasilluas"></div>
+                                <button class="button2" type="reset">Reset</button>
+                            </form>    
+                        </div>
+            </section><br>
+
+            <!--Section Keliling Jajargenjang-->
+             <section class="card">
+                <h2>Keliling Jajargenjang</h2>
+                <br>
+                <img class="image2" src="/assets/image2.jpg" alt="">
+                    <div>
+                        <h5>Rumus Keliling Jajargenjang Yaitu :</h5>
+                        <p><center> K = 2 * (P + T)</center></p>
+                     </div><br>
+
+                     <div>
+                        <p>Dimana :</p>
+                        <p>K = Keliling</p>
+                        <p>P = Panjang</p>
+                        <p>T = Tinggi</p>
+                    </div><br>
+ 
+                 <div>
+                     <h1>Hitung Keliling Segitiga</h1>
+                        <form >
+                            <input class="menu" type="number" name="input" id="panjang" required>
+                            <input class="menu" type="number" name="input" id="tinggi" required>
+                            <button class="button1" type="submit" value="hitung" onclick="return kelilingjajargenjang()">Hitung</button>
+                            <div id="hasiljajar"></div>
+                            <button class="button2" type="reset">Reset</button>
+                        </form>
+                 </div>
+             </section>
+            </main>
+            <footer>@Erviani Saputri REVOU 2023</footer>
+    
+
+
+
+</body>
+</html>
